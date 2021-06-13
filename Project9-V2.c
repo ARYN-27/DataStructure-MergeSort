@@ -156,7 +156,7 @@ int main()
 
     for (int i = 0; i < size; i++)
     {
-        printf("Value : ");
+        printf("Value %d : ",i+1);
         scanf("%d", &input);
         Insert(&a, input);
     }
